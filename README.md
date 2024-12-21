@@ -1,10 +1,12 @@
 This project simulates a bounded-buffer producer-consumer problem using semaphores for mutual exclusion and synchronization between processes. The producer processes continuously generate commodity prices, and the consumer process displays the latest prices along with an average price. The prices are shared through a shared memory buffer.
 
-Objective
+Objective:
+
 Implement a bounded-buffer producer-consumer problem.
 Use semaphores for mutual exclusion and synchronization.
 Implement shared memory for interprocess communication.
-Files in this Repository
+Files in this Repository:
+
 This repository contains the following files:
 
 buffer.h - A header file that defines common methods and structs used by both the producer and consumer, including the shared buffer structure.
@@ -37,11 +39,11 @@ Shows an arrow (up/down) to indicate whether the price has increased or decrease
 Example Output from Consumer
 Displays the current price and the average price of the commodities, along with an indication of whether the price has gone up or down.
 
-Dependencies
+Dependencies:
 This project uses System V IPC mechanisms for inter-process communication, which are available by default on most Unix-like operating systems.
 
-Compilation Instructions
+Compilation Instructions:
 To compile the project, run the provided Makefile.
 
-Cleaning up
+Cleaning up:
 To clean up the compiled files, run the make clean command.
