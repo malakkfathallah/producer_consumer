@@ -10,10 +10,14 @@ Files in this Repository:
 This repository contains the following files:
 
 buffer.h - A header file that defines common methods and structs used by both the producer and consumer, including the shared buffer structure.
+
 consumer.cpp - The consumer process code, which fetches prices from the shared buffer and displays them with average prices.
+
 producer.cpp - The producer process code, which generates random commodity prices and places them in the shared buffer.
+
 Makefile - A makefile for compiling and building the project.
-How to Run
+
+How to Run:
 Compile the code: Use the make all command to compile the code.
 
 Running the Consumer: The consumer process displays the prices of commodities and their averages. Run the consumer with the required arguments for the bounded-buffer size.
